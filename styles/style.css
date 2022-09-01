@@ -171,8 +171,6 @@ span {
     .blog {
         flex-direction: row;
     }
-
-    .courses {}
 }
 
 /* Tablet Devices */
@@ -185,5 +183,9 @@ span {
     .players,
     .courses {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        flex-direction: column;
     }
 }
